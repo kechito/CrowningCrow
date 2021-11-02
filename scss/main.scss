@@ -1,0 +1,24 @@
+
+@use '_global' as *;
+
+.nav-ed{
+       & > .feature{
+           & > .navbar{
+           & > img{
+               width: 50px;
+            }
+        }
+    }
+    & > .collapse{
+     & > .d-flex{
+         & > .notify img{
+             margin: 5px;
+         }
+     }
+    }
+
+   }
+
+
+
+
